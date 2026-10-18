@@ -1,0 +1,227 @@
+{
+  "profile": {
+    "name": "TJ Lodge",
+    "number": "1",
+    "roles": [
+      "Goaltender",
+      "Skater"
+    ],
+    "disciplines": [
+      "Inline hockey",
+      "Ice hockey"
+    ],
+    "location": "South Australia",
+    "hero": "assets/p01.webp"
+  },
+  "photos": [
+    {
+      "src": "assets/p01.webp",
+      "caption": "2026 Hornets player portrait",
+      "tag": "portrait"
+    },
+    {
+      "src": "assets/p02.webp",
+      "caption": "SA Nationals goalie portrait",
+      "tag": "nationals"
+    },
+    {
+      "src": "assets/p03.webp",
+      "caption": "Nationals sportsmanship certificate",
+      "tag": "award"
+    },
+    {
+      "src": "assets/p04.webp",
+      "caption": "South Australia team photo",
+      "tag": "team"
+    },
+    {
+      "src": "assets/p05.webp",
+      "caption": "Goalie ready in the change room",
+      "tag": "behind"
+    },
+    {
+      "src": "assets/p06.webp",
+      "caption": "Nationals goalie gear",
+      "tag": "behind"
+    },
+    {
+      "src": "assets/p07.webp",
+      "caption": "On court at Skate Paradise",
+      "tag": "action"
+    },
+    {
+      "src": "assets/p08.webp",
+      "caption": "Guarding the net",
+      "tag": "action"
+    },
+    {
+      "src": "assets/p09.webp",
+      "caption": "SA team talk",
+      "tag": "team"
+    },
+    {
+      "src": "assets/p10.webp",
+      "caption": "Medals and memories",
+      "tag": "award"
+    },
+    {
+      "src": "assets/p11.webp",
+      "caption": "Two medals",
+      "tag": "award"
+    },
+    {
+      "src": "assets/p12.webp",
+      "caption": "Inline goalie training",
+      "tag": "training"
+    },
+    {
+      "src": "assets/p13.webp",
+      "caption": "Hornets goalie in action",
+      "tag": "action"
+    },
+    {
+      "src": "assets/p14.webp",
+      "caption": "Ice hockey goalie",
+      "tag": "ice"
+    },
+    {
+      "src": "assets/p15.webp",
+      "caption": "Hornets action portrait",
+      "tag": "portrait"
+    },
+    {
+      "src": "assets/p16.webp",
+      "caption": "Nationals squad",
+      "tag": "team"
+    },
+    {
+      "src": "assets/p17.webp",
+      "caption": "Goalie friends",
+      "tag": "behind"
+    },
+    {
+      "src": "assets/p18.webp",
+      "caption": "Ice hockey goalie in crease",
+      "tag": "ice"
+    },
+    {
+      "src": "assets/p19.webp",
+      "caption": "Ice hockey training",
+      "tag": "ice"
+    },
+    {
+      "src": "assets/p20.webp",
+      "caption": "South Australia #1",
+      "tag": "nationals"
+    }
+  ],
+  "seasons": [
+    {
+      "id": "nationals26",
+      "title": "2026 Australian Inline Nationals",
+      "team": "South Australia U9",
+      "sport": "inline",
+      "year": "2026",
+      "role": "Goaltender",
+      "description": "Represented South Australia at the Under-9 National Championships in Queensland.",
+      "status": "historical"
+    },
+    {
+      "id": "hornets26",
+      "title": "2026 Winter Season",
+      "team": "9U Hornets",
+      "sport": "ice",
+      "year": "2026",
+      "role": "Goaltender",
+      "description": "Hornets season memories and team photographs. Official match statistics have not yet been entered.",
+      "status": "historical"
+    },
+    {
+      "id": "summer26",
+      "title": "2026/27 Junior A Summer",
+      "team": "Blackwood Blaze competition",
+      "sport": "inline",
+      "year": "2026/27",
+      "role": "Goaltender",
+      "description": "Two reported goalie appearances across Wild Hogs and Gorillas.",
+      "status": "in progress"
+    }
+  ],
+  "games": [
+    {
+      "id": "nat-tas",
+      "title": "South Australia vs Tasmania",
+      "subtitle": "2026 U9 Nationals \u00b7 Elimination final",
+      "sport": "inline",
+      "source": "https://ilha.hockeysyte.com/pregame/3410",
+      "video": "https://www.youtube.com/live/PoGWNtYkeM4?si=BSQZpl0gCrLRkwIE",
+      "status": "Match-level score and stats awaiting confirmation"
+    },
+    {
+      "id": "nat-nsw",
+      "title": "South Australia vs New South Wales",
+      "subtitle": "2026 U9 Nationals",
+      "sport": "inline",
+      "source": "https://ilha.hockeysyte.com/pregame/3422",
+      "video": "https://www.youtube.com/live/2yHVOC9cpG4?si=jigNQUhm8FvMsL5j",
+      "status": "Match-level score and stats awaiting confirmation"
+    }
+  ],
+  "goalie": {
+    "source": "https://blackwoodblaze.hockeysyte.com/goalies/89",
+    "scope": "2026/27 Junior A Summer \u00b7 two reported appearances",
+    "games": 2,
+    "minutes": 80,
+    "shots": 42,
+    "saves": 22,
+    "goalsAgainst": 20,
+    "savePct": 52.38,
+    "losses": 2,
+    "teams": [
+      {
+        "name": "Wild Hogs",
+        "games": 1,
+        "minutes": 40,
+        "shots": 31,
+        "saves": 18,
+        "goalsAgainst": 13,
+        "savePct": 58.06
+      },
+      {
+        "name": "Gorillas",
+        "games": 1,
+        "minutes": 40,
+        "shots": 11,
+        "saves": 4,
+        "goalsAgainst": 7,
+        "savePct": 36.36
+      }
+    ]
+  },
+  "milestones": [
+    {
+      "title": "South Australia U9 representative",
+      "date": "2026",
+      "desc": "Selected for the SA Under-9 inline Nationals team.",
+      "type": "Representative"
+    },
+    {
+      "title": "Sportsmanship recognition",
+      "date": "2026 Nationals",
+      "desc": "Certificate recognising great sportsmanship and never giving up.",
+      "type": "Achievement",
+      "image": "assets/p03.webp"
+    },
+    {
+      "title": "Hornets 9U season",
+      "date": "2026",
+      "desc": "A season of ice hockey development, games and team memories.",
+      "type": "Team"
+    }
+  ],
+  "notes": [
+    "The 1\u20135\u20130\u20130 record, 10.17 GAA and .548 SV shown on two Nationals pregame pages are the same cumulative pregame figures, not two separate game performances.",
+    "The 2026/27 Junior A summer statistics cover only the two supplied goalie appearances, not a complete career total.",
+    "Ice hockey training and photos are not counted as official match appearances."
+  ]
+}
