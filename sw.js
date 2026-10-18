@@ -1,4 +1,4 @@
-const CACHE='tj-hockey-hub-v1-16';
+const CACHE='tj-hockey-hub-v1-17';
 const CORE=['./','./index.html','./style.css','./app.js','./manifest.webmanifest','./assets/p20.webp'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(Promise.all([caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))),self.clients.claim()])));
