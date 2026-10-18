@@ -64,3 +64,6 @@ body{background:radial-gradient(ellipse 90% 35% at 50% -5%,#19344e 0%,transparen
 .bottom button[data-nav="awards"] .navicon{background-position:100% center}
 .bottom button .navicon svg,.bottom button .navicon img{display:none!important}
 .bottom button.active .navicon{box-shadow:0 0 0 1px #f5c46f,0 0 14px #f5c46f75}
+
+/* Three-page navigation */
+.bottom{justify-content:space-evenly}.bottom button{flex:1;max-width:175px}.bottom button[data-nav="awards"]{display:none}
