@@ -45,3 +45,13 @@ body{background:radial-gradient(ellipse 90% 35% at 50% -5%,#19344e 0%,transparen
 .bottom button.active .navicon{color:#f4ce7a;border-color:#eac274a8;background:radial-gradient(circle at 50% 20%,#28415b,#0c1a2e);box-shadow:0 0 15px #d5a75325,inset 0 1px #ffe5a64d}
 .bottom button.active:after{content:"";width:24px;height:2px;background:#f2c977;box-shadow:0 0 10px #f2c977;position:absolute;bottom:-5px;border-radius:2px}
 @media(max-width:390px){.bottom button .navicon{width:39px;height:36px}.bottom button .navicon svg{width:25px;height:25px}}
+
+/* V15: photographic home navigation and dramatic midnight-ice tiles */
+.bottom button .navicon{width:54px;height:54px;border-radius:15px;background:radial-gradient(circle at 25% 12%,#244968,#081526 76%);border:1px solid #c7a66d6b;box-shadow:inset 0 1px #ffffff2b,0 4px 16px #0008;overflow:hidden;position:relative}
+.bottom button .navicon:after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;box-shadow:inset 0 0 0 1px #ffffff18}
+.bottom button .navicon svg{width:32px;height:32px;filter:drop-shadow(0 2px 5px #000b)}
+.bottom button[data-nav="home"] .navicon svg{display:none}
+.bottom button .home-nav-photo{width:100%;height:100%;object-fit:cover;object-position:center 42%;display:block}
+.bottom button.active .navicon{border-color:#f5c46f;box-shadow:0 0 0 1px #f1c6776b,0 0 17px #eab95c72,inset 0 0 12px #efc37635}
+.bottom button .navlabel{font-size:10px;letter-spacing:.4px}
+@media(max-width:390px){.bottom button .navicon{width:48px;height:48px}.bottom button .navicon svg{width:30px;height:30px}}
