@@ -67,3 +67,9 @@ body{background:radial-gradient(ellipse 90% 35% at 50% -5%,#19344e 0%,transparen
 
 /* Three-page navigation */
 .bottom{justify-content:space-evenly}.bottom button{flex:1;max-width:175px}.bottom button[data-nav="awards"]{display:none}
+
+/* v18: correct the navigation labels and restore a visible Home photo */
+.bottom button[data-nav="home"] .navicon{background-image:url("assets/p20.webp")!important;background-size:cover!important;background-position:center center!important;background-repeat:no-repeat!important;border:1px solid #e9c27a}
+.bottom button[data-nav="stats"] .navicon{background-position:33.3333% center!important}
+.bottom button[data-nav="games"] .navicon{background-position:66.6667% center!important}
+.bottom button .navicon{image-rendering:auto}
