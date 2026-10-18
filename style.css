@@ -21,3 +21,27 @@
 .matchresult{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap;margin:0 0 14px;padding:11px 12px;border-radius:9px;background:#ffffff0b}.matchresult strong{font-size:11px;letter-spacing:.06em;color:#e9ba59}.matchresult span{font-size:12px;color:#dce8f5}
 
 .competitionaccordion{margin:16px 0}.competitionaccordion>summary{padding:19px 16px}.competitionaccordion>summary strong{font-size:16px}.competitionbody{padding:12px}.competitionbody .matchaccordion{margin-bottom:9px}.competitionbody .matchaccordion:last-child{margin-bottom:0}
+
+/* Midnight ice / gold design system, v14 */
+:root{--ice-night:#050e1b;--ice-navy:#0b1c31;--ice-gold:#f0c36c;--ice-silver:#c7d6e7}
+body{background:radial-gradient(ellipse 90% 35% at 50% -5%,#19344e 0%,transparent 72%),linear-gradient(145deg,#06111f,#08182a 65%,#050c17);color:#edf4ff}
+.app{background:linear-gradient(160deg,transparent 15%,#06112040 100%)}
+.topbar{background:#061321eb;border-bottom:1px solid #d3a95a38;box-shadow:0 8px 35px #0005}
+.brandmark{color:#fff;text-shadow:0 0 18px #dca94e35}.brandwords small,.gold,.eyebrow,.tag,.subhead,.homeprofiletext p,.homeheading span,.homecareerlabel strong,.homebest span{color:var(--ice-gold)}
+.card,.homecareer,.homebest>div,.stataccordion,.statlegend{background:linear-gradient(145deg,#13263d 0%,#091a2e 75%);border:1px solid #d4ae6a35;box-shadow:inset 0 1px #ffffff0a,0 10px 26px #0002}
+.homeprofile{background:radial-gradient(ellipse at 100% 0,#24405c 0%,transparent 60%),linear-gradient(140deg,#152b43,#071728);border:1px solid #d8ad604f;box-shadow:0 12px 30px #0005;overflow:hidden;position:relative}
+.homeprofile:after{content:"";position:absolute;right:-15px;top:-20px;width:150px;height:150px;border:1px solid #ffffff09;border-radius:50%;pointer-events:none}
+.homeprofile img{border:1px solid #e9bb655c;box-shadow:0 0 25px #d7a64c1a}
+.homeprofiletext h1,.page-title,.section-head h2,.homeheading h2{font-style:normal;letter-spacing:-.045em}
+.stat{background:linear-gradient(160deg,#1a3048,#0a192c);border-color:#d7b46a25}
+.stat .num,.homestats b{font-variant-numeric:tabular-nums;text-shadow:0 2px 18px #a6d9ff1c}
+.action.primary,.switches button.active{background:linear-gradient(125deg,#f5d78d,#d5a34e);color:#071523}
+.bottom{padding:7px max(8px,calc((100vw - 800px)/2)) calc(8px + env(safe-area-inset-bottom));background:linear-gradient(145deg,#0c1c30f7,#061322f9);border-top:1px solid #d8b46d6b;box-shadow:0 -8px 36px #0009;gap:4px}
+.bottom button{position:relative;min-width:0;flex:1;max-width:150px;gap:5px;padding:2px 4px 0;color:#b0c2d6;letter-spacing:.35px;text-transform:uppercase;font-size:9px;transition:color .2s}
+.bottom button .navicon{width:43px;height:39px;display:flex;align-items:center;justify-content:center;border:1px solid #c3a66b30;border-radius:12px;background:linear-gradient(145deg,#182c43,#091827);box-shadow:inset 0 1px #ffffff14}
+.bottom button .navicon svg{width:28px;height:28px;filter:drop-shadow(0 1px 3px #0009)}
+.bottom button .navlabel{font-size:9px;line-height:12px}
+.bottom button.active{color:#f2c977}
+.bottom button.active .navicon{color:#f4ce7a;border-color:#eac274a8;background:radial-gradient(circle at 50% 20%,#28415b,#0c1a2e);box-shadow:0 0 15px #d5a75325,inset 0 1px #ffe5a64d}
+.bottom button.active:after{content:"";width:24px;height:2px;background:#f2c977;box-shadow:0 0 10px #f2c977;position:absolute;bottom:-5px;border-radius:2px}
+@media(max-width:390px){.bottom button .navicon{width:39px;height:36px}.bottom button .navicon svg{width:25px;height:25px}}
